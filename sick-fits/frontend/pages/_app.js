@@ -6,7 +6,7 @@ class MyApp extends App {
 
     return (
       <Container>
-        <Page></Page>
+        <Page/>
         <Component/>
       </Container>
     )
