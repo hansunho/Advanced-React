@@ -19,7 +19,7 @@ const CREATE_ITEM_MUTATION = gql`
       price: $price
       image: $image
       largeImage: $largeImage
-    ){title}
+    ){id}
   }
 `
 class CreateItem extends Component {
