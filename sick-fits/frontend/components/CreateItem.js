@@ -6,7 +6,7 @@ import Form from './styles/Form'
 import formatMoney from '../lib/formatMoney'
 import Error from './ErrorMessage'
 const CREATE_ITEM_MUTATION = gql`
-  mutation ALL_ITEMS_QUERY(
+  mutation CREATE_ITEM_MUTATION(
       $title: String!
       $description: String!
       $price: Int!
